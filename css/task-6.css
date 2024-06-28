@@ -1,0 +1,55 @@
+.controls{
+    padding: 32px;
+    display: flex;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    background: #F6F6FE;
+}
+
+.input{
+    padding: 8px 72px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+
+.btn1{
+    width: 120px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #4E75FF;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-color: transparent;
+}
+
+.btn1:hover {
+    background: #6C8CFF;
+}
+
+.btn2 {
+    width: 120px;
+    padding: 8px 16px;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-radius: 8px;
+    background: #FF4E4E;
+    border-color: transparent;
+}
+
+.btn2:hover {
+    background: #FF7070;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    min-width: 50px;
+    min-height: 50px;
+}

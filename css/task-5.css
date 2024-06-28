@@ -1,0 +1,35 @@
+.widget{
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.text{
+    color: #2E2F42;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.color{
+    color: #2E2F42;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.change-color{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #4E75FF;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-color: transparent;
+}
+
+.change-color:hover{
+    background: #6C8CFF;
+}
